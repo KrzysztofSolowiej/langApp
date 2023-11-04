@@ -25,3 +25,5 @@ Imports:
     shiny,
     testthat,
     usethis
+URL: https://github.com/KrzysztofSolowiej/langApp
+BugReports: https://github.com/KrzysztofSolowiej/langApp/issues
