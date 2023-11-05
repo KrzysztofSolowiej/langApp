@@ -23,8 +23,9 @@
 
 langApp <- function(...) {
 
-data <- read_csv("./dataset/endangered_languages.csv")
-  
+# data <- read_csv("./dataset/endangered_languages.csv")
+data <- read_csv("https://raw.githubusercontent.com/KrzysztofSolowiej/langApp/master/dataset/endangered_languages.csv")
+
 # Define UI 
 ui <- fluidPage(
   titlePanel("Endangered languages table"),
