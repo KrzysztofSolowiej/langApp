@@ -1,23 +1,26 @@
-library(readr)
-library(dplyr)
-library(purrr)
-library(usethis)
-library(devtools)
-library(testthat)
-library(shiny)
-library(plotly)
-library(leaflet)
-library(DT)
+#' langApp
+#'
+#' Loads a langApp
+#'
+#' @param ... this param is for other unspecified params.
+#' 
+#' @import readr
+#' @import dplyr
+#' @import purrr
+#' @import usethis
+#' @import devtools
+#' @import testthat
+#' @import shiny
+#' @import leaflet
+#' @import plotly
+#' @import DT
+#' 
+#' @export
+#' 
+#'
+#' @author Krzysztof Solowiej <krsolowiej@gmail.com>
 
-# setwd("C:/Users/Balon1/Desktop/IT/R_tutorial_scripts")
 
-# Add data
-
-# use_data(data, overwrite = TRUE)
-# dataset <- load("./data/data.rda")
-
-
-# Functions ---------------------------
 langApp <- function(...) {
 
 data <- read_csv("./dataset/endangered_languages.csv")
